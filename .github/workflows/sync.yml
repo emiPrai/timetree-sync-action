@@ -4,9 +4,8 @@ on:
   workflow_dispatch:
 
   # 6時間ごとに自動同期
-  
   schedule:
-     - cron: "15 */6 * * *"
+  - cron: "15 */6 * * *"
 
 jobs:
   sync:
